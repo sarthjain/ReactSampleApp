@@ -1,0 +1,43 @@
+.photos {
+    margin: 2.5rem;
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14em, 1fr)); 
+    grid-auto-rows: auto; 
+    grid-gap: 2rem 1rem;
+}
+
+.photo-card {
+    width: 14em;
+    height: 18em;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+
+.photo-card:hover .photo-image {
+    height: 18em;
+}
+
+.photo-image {
+    height: 12em;
+    width: 14em;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.photo-title {
+    background-color: #FAFAFC;
+    height: 6em;
+    width: 14em;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.photo-card:hover .photo-title {
+    height: 0em;
+    padding: 0rem;
+}

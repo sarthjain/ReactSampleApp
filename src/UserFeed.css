@@ -1,0 +1,54 @@
+.feed-header {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.back-button {
+    color: darkblue;
+    border: none;
+    background-color: unset;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.back-icon {
+    vertical-align: text-bottom;
+}
+
+.feed-header .action-buttons {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.action-button {
+    border-radius: 5px;
+    font-size: 1.25rem;
+    border: 1px solid black;
+    cursor: pointer;
+    color: white;
+}
+
+.action-button.selected {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.action-button.not-selected {
+    background-color: white;
+    color: black;
+}
+
+.action-icon {
+    font-size: 1.5rem;
+    vertical-align: text-bottom;
+}
+
+.action-button:hover {
+    transform: scale(1.05);
+}
+
+.feed-body {
+    margin: 2rem 1rem 2rem 0rem;
+}

@@ -1,0 +1,8 @@
+.albums {
+    margin: 2.5rem;
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr); 
+    grid-auto-rows: auto; 
+    grid-gap: 2rem;
+}
